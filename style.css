@@ -16,11 +16,14 @@ body {
 /*HEADER*/
 
 nav {
-    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-
-    display: inline-block;
+    height: 80px;
+    background-color: hsl(0, 0%, 10%);
     border-bottom: white solid 1px;
+    z-index: 1000;
 }
 
 .logo {
@@ -100,12 +103,13 @@ nav {
     .check-btn {
         display: block;
     }
+
     .nav-bar {
         position: fixed;
         width: 50%;
         height: 100vh;
 
-        top: 80px;
+        top: 160px;
         right: -100%;
         text-align: center;
 
@@ -305,7 +309,7 @@ nav {
     }
 
     .hero-btns button {
-        width: 90%;
+        width: 300px;
     }
 
     .hero img {
@@ -639,7 +643,7 @@ nav {
 
 .form-control {
     margin: 15px;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 10px;
 }
 
