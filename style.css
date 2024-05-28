@@ -176,6 +176,7 @@ nav {
 /*HERO SECTION*/
 
 .hero {
+    margin-top: 50px;
     margin: 80px;
     display: inline-block;
 }
