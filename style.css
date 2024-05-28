@@ -176,7 +176,6 @@ nav {
 /*HERO SECTION*/
 
 .hero {
-    margin-top: 50px;
     margin: 80px;
     display: inline-block;
 }
@@ -299,6 +298,7 @@ nav {
 
 @media (max-width: 475px) {
     .hero {
+        margin-top: 60px;
         margin: 20px;
     }
 
